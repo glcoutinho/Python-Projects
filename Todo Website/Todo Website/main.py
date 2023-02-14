@@ -28,27 +28,6 @@ class task_force(db.Model):
     task = db.Column(db.String(250), unique=True, nullable=False)
 
 
-# db.create_all()
-# todo 1: Build the language in flask framework
-# nav bar
-# bootstrap color
-# create a section for input and output
-# todo 2: build the input
-# wtf class
-# use of csv write and read and loop
-# pass variable to html with flask
-# import wtd
-# align with-left and padding
-# todo 3: identify the task
-# verify and delete tasks
-# create and pass id to function
-# use try to allow to generate file
-# use stack overwflow why to get a lsit
-# use if "casa" in item: to find words in list
-# find a way to pass the word to cross
-# todo 4: addition of sql
-# reverse enginer
-
 @app.route("/", methods=['GET', 'POST'])
 def home():
     form = Todo()
